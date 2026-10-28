@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-LeetCode-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode">
-  <img src="https://img.shields.io/badge/Language-SQL%20%2F%20T--SQL-blue?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
+  <img src="https://img.shields.io/badge/Dialect-MS%20SQL%20Server%20(T--SQL)-red?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="MS SQL Server">
   <img src="https://img.shields.io/badge/Status-In%20Progress-brightgreen?style=for-the-badge" alt="Status">
 </p>
 
@@ -24,8 +24,8 @@ Return the result table in any order.
 | Column Name | Type | Description |
 | :--- | :--- | :--- |
 | `product_id` | int | Primary key (unique values) |
-| `low_fats` | enum | Category ('Y' means low fat, 'N' means not low fat) |
-| `recyclable` | enum | Category ('Y' means recyclable, 'N' means not recyclable) |
+| `low_fats` | varchar / enum | Category ('Y' means low fat, 'N' means not low fat) |
+| `recyclable` | varchar / enum | Category ('Y' means recyclable, 'N' means not recyclable) |
 
 ---
 
@@ -54,14 +54,15 @@ Return the result table in any order.
 
 ---
 
-#### 💡 Approach & Logic
-* We need to select the `product_id` from the `Products` table.
-* We apply a `WHERE` condition to filter rows where **both** `low_fats` equals `'Y'` and `recyclable` equals `'Y'` using the logical `AND` operator.
+#### 💡 Approach & Logic (MS SQL / T-SQL)
+* Query the `product_id` column from the `Products` table.
+* Use a `WHERE` clause with the `AND` operator to filter records where both `low_fats` and `recyclable` equal `'Y'`.
 
 ---
 
-#### 💻 SQL Code
+#### 💻 T-SQL Code
 ```sql
+-- Solution for MS SQL Server (T-SQL)
 SELECT product_id
 FROM Products
 WHERE low_fats = 'Y' 

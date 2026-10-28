@@ -1,12 +1,5 @@
 # 📊 LeetCode Top SQL 50 - Solutions
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-LeetCode-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode">
-  <img src="https://img.shields.io/badge/Dialect-MS%20SQL%20Server%20(T--SQL)-red?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="MS SQL Server">
-  <img src="https://img.shields.io/badge/Status-In%20Progress-brightgreen?style=for-the-badge" alt="Status">
-</p>
-
----
 
 ## 📂 01. Select
 

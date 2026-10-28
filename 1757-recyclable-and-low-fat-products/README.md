@@ -1,7 +1,3 @@
-# 📊 LeetCode Top SQL 50 - Solutions
-
-
-## 📂 01. Select
 
 ### 1757. Recyclable and Low Fat Products
 <img src="https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=flat-square" alt="Difficulty Easy"> 

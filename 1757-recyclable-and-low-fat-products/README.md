@@ -1,34 +1,64 @@
-# 📊 LeetCode Top SQL 50
+# 📊 LeetCode Top SQL 50 - Solutions
 
-This repository contains my solutions to the **LeetCode Top SQL 50** study plan. Solutions are optimized and structured to build a strong data science and analytics portfolio.
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-LeetCode-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode">
+  <img src="https://img.shields.io/badge/Language-SQL%20%2F%20T--SQL-blue?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
+  <img src="https://img.shields.io/badge/Status-In%20Progress-brightgreen?style=for-the-badge" alt="Status">
+</p>
 
 ---
 
 ## 📂 01. Select
 
 ### 1757. Recyclable and Low Fat Products
-**Difficulty:** Easy  
-**Link:** [LeetCode Problem 1757](https://leetcode.com/problems/recylable-and-low-fat-products/)
+<img src="https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=flat-square" alt="Difficulty Easy"> 
 
 #### 📝 Problem Statement
 Write a solution to find the IDs of products that are both low fat and recyclable.
 
 Return the result table in any order.
 
-**Table: `Products`**
-| Column Name | Type |
-| :--- | :--- |
-| product_id | int |
-| low_fats | enum |
-| recyclable | enum |
+---
 
-* `product_id` is the primary key (column with unique values) for this table.
-* `low_fats` is an ENUM of type ('Y', 'N') where 'Y' means low fat and 'N' means not low fat.
-* `recyclable` is an ENUM of type ('Y', 'N') where 'Y' means recyclable and 'N' means not recyclable.
+#### 📋 Table Schema: `Products`
+| Column Name | Type | Description |
+| :--- | :--- | :--- |
+| `product_id` | int | Primary key (unique values) |
+| `low_fats` | enum | Category ('Y' means low fat, 'N' means not low fat) |
+| `recyclable` | enum | Category ('Y' means recyclable, 'N' means not recyclable) |
 
-#### 💡 Approach
-* Use a `SELECT` statement to retrieve the `product_id` column.
-* Apply a `WHERE` clause combined with the `AND` operator to filter rows where both `low_fats = 'Y'` and `recyclable = 'Y'`.
+---
+
+#### 🔍 Examples
+
+**Example 1:**
+
+* **Input:** `Products` table
+  
+  | product_id | low_fats | recyclable |
+  | :---: | :---: | :---: |
+  | 0 | Y | N |
+  | 1 | Y | Y |
+  | 2 | N | Y |
+  | 3 | Y | Y |
+  | 4 | N | N |
+
+* **Output:** 
+  
+  | product_id |
+  | :---: |
+  | 1 |
+  | 3 |
+
+* **Explanation:** Only products 1 and 3 are both low fat and recyclable.
+
+---
+
+#### 💡 Approach & Logic
+* We need to select the `product_id` from the `Products` table.
+* We apply a `WHERE` condition to filter rows where **both** `low_fats` equals `'Y'` and `recyclable` equals `'Y'` using the logical `AND` operator.
+
+---
 
 #### 💻 SQL Code
 ```sql

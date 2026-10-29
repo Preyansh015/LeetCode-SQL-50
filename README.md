@@ -22,7 +22,7 @@ Mastering these problem patterns is a core foundation for data science, data ana
 | Category | Topics Covered | Status | Completed |
 | :--- | :--- | :---: | :---: |
 | **01-Select** | Filtering, Conditional Logic, Basic Selection | 🟢 Completed | 5 / 5 |
-| **02-Basic-Joins** | Inner, Left, Right, and Self Joins | ⚪ Upcoming | 0 / 7 |
+| **02-Basic-Joins** | Inner, Left, Right, and Self Joins | 🟢 In Progress | 2 / 7 |
 | **03-Basic-Aggregate-Functions** | COUNT, SUM, AVG, MAX, MIN, GROUP BY | ⚪ Upcoming | 0 / 6 |
 | **04-Sorting-and-Grouping** | ORDER BY, HAVING, Filtering Groups | ⚪ Upcoming | 0 / 7 |
 | **05-Advanced-Select-and-Joins** | CASE Statements, Complex Joins, Unions | ⚪ Upcoming | 0 / 8 |
@@ -34,11 +34,15 @@ Mastering these problem patterns is a core foundation for data science, data ana
 ## 📋 Problem Directory & Solutions
 
 ### 📂 01-Select
-* [1757. Recyclable and Low Fat Products](./01-Select/1757-recyclable-and-low-fat-products.sql) — **Easy**
-* [584. Find Customer Referee](./01-Select/584-find-customer-referee.sql) — **Easy**
-* [1148. Article Views I](./01-Select/1148-article-views-i.sql) — **Easy**
-* [595. Big Countries](./01-Select/595-big-countries.sql) — **Easy**
-* [1683. Invalid Tweets](./01-Select/1683-invalid-tweets.sql) — **Easy**
+* [1757. Recyclable and Low Fat Products](./01-Select/1757-recyclable-and-low-fat-products/) — **Easy**
+* [584. Find Customer Referee](./01-Select/584-find-customer-referee/) — **Easy**
+* [1148. Article Views I](./01-Select/1148-article-views-i/) — **Easy**
+* [595. Big Countries](./01-Select/595-big-countries/) — **Easy**
+* [1683. Invalid Tweets](./01-Select/1683-invalid-tweets/) — **Easy**
+
+### 📂 02-Basic-Joins
+* [1378. Replace Employee ID With The Unique Identifier](./02-Basic-Joins/1378-replace-employee-id-with-unique-identifier/) — **Easy**
+* [1068. Product Sales Analysis I](./02-Basic-Joins/1068-product-sales-analysis-i/) — **Easy**
 
 *(More categories and solutions will be added here as I progress through the study plan!)*
 

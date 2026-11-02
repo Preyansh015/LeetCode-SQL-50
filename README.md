@@ -22,8 +22,8 @@ Mastering these problem patterns is a core foundation for data science, data ana
 | Category | Topics Covered | Status | Completed |
 | :--- | :--- | :---: | :---: |
 | **01-Select** | Filtering, Conditional Logic, Basic Selection | 🟢 Completed | 5 / 5 |
-| **02-Basic-Joins** | Inner, Left, Right, and Self Joins | 🟢 In Progress | 4 / 7 |
-| **03-Basic-Aggregate-Functions** | COUNT, SUM, AVG, MAX, MIN, GROUP BY | ⚪ Upcoming | 0 / 6 |
+| **02-Basic-Joins** | Inner, Left, Right, and Self Joins | 🟢 Completed | 7 / 7 |
+| **03-Basic-Aggregate-Functions** | COUNT, SUM, AVG, MAX, MIN, GROUP BY | 🟢 In Progress | 1 / 6 |
 | **04-Sorting-and-Grouping** | ORDER BY, HAVING, Filtering Groups | ⚪ Upcoming | 0 / 7 |
 | **05-Advanced-Select-and-Joins** | CASE Statements, Complex Joins, Unions | ⚪ Upcoming | 0 / 8 |
 | **06-Subqueries** | Nested Queries, EXISTS, ANY/ALL | ⚪ Upcoming | 0 / 5 |
@@ -45,6 +45,12 @@ Mastering these problem patterns is a core foundation for data science, data ana
 * [1068. Product Sales Analysis I](./02-Basic-Joins/1068-product-sales-analysis-i/) — **Easy**
 * [1581. Customer Who Visited but Did Not Make Any Transactions](./02-Basic-Joins/1581-customer-who-visited-but-did-not-make-any-transactions/) — **Easy**
 * [197. Rising Temperature](./02-Basic-Joins/197-rising-temperature/) — **Easy**
+* [1661. Average Time of Process per Machine](./02-Basic-Joins/1661-average-time-of-process-per-machine/) — **Easy**
+* [577. Employee Bonus](./02-Basic-Joins/577-employee-bonus/) — **Easy**
+* [1280. Students and Examinations](./02-Basic-Joins/1280-students-and-examinations/) — **Easy**
+
+### 📂 03-Basic-Aggregate-Functions
+* [570. Managers with at Least 5 Direct Reports](./03-Basic-Aggregate-Functions/570-managers-with-at-least-5-direct-reports/) — **Medium**
 
 *(More categories and solutions will be added here as I progress through the study plan!)*
 
